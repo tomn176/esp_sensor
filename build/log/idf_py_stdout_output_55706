@@ -1,0 +1,51 @@
+-- IDF_TARGET is not set, guessed 'esp32' from sdkconfig '/home/tung/esp_sensor/sdkconfig'
+-- Found Git: /usr/bin/git (found version "2.25.1") 
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /home/tung/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc
+-- Check for working C compiler: /home/tung/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc
+-- Check for working C compiler: /home/tung/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /home/tung/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32-elf-g++
+-- Check for working CXX compiler: /home/tung/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+NOTICE: Processing 1 dependencies:
+NOTICE: [1/1] idf (5.2.0)
+-- Project sdkconfig file /home/tung/esp_sensor/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: /home/tung/.espressif/python_env/idf5.2_py3.8_env/bin/python (found version "3.8.10") found components: Interpreter 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "esp_sensor" version: 1
+-- Adding linker script /home/tung/esp_sensor/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/tung/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /home/tung/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/tung/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/tung/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/tung/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /home/tung/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /home/tung/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/tung/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx dht driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_idf_lib_helpers esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/tung/esp/esp-idf/components/app_trace /home/tung/esp/esp-idf/components/app_update /home/tung/esp/esp-idf/components/bootloader /home/tung/esp/esp-idf/components/bootloader_support /home/tung/esp/esp-idf/components/bt /home/tung/esp/esp-idf/components/cmock /home/tung/esp/esp-idf/components/console /home/tung/esp/esp-idf/components/cxx /home/tung/esp_sensor/components/dht /home/tung/esp/esp-idf/components/driver /home/tung/esp/esp-idf/components/efuse /home/tung/esp/esp-idf/components/esp-tls /home/tung/esp/esp-idf/components/esp_adc /home/tung/esp/esp-idf/components/esp_app_format /home/tung/esp/esp-idf/components/esp_bootloader_format /home/tung/esp/esp-idf/components/esp_coex /home/tung/esp/esp-idf/components/esp_common /home/tung/esp/esp-idf/components/esp_eth /home/tung/esp/esp-idf/components/esp_event /home/tung/esp/esp-idf/components/esp_gdbstub /home/tung/esp/esp-idf/components/esp_hid /home/tung/esp/esp-idf/components/esp_http_client /home/tung/esp/esp-idf/components/esp_http_server /home/tung/esp/esp-idf/components/esp_https_ota /home/tung/esp/esp-idf/components/esp_https_server /home/tung/esp/esp-idf/components/esp_hw_support /home/tung/esp_sensor/components/esp_idf_lib_helpers /home/tung/esp/esp-idf/components/esp_lcd /home/tung/esp/esp-idf/components/esp_local_ctrl /home/tung/esp/esp-idf/components/esp_mm /home/tung/esp/esp-idf/components/esp_netif /home/tung/esp/esp-idf/components/esp_netif_stack /home/tung/esp/esp-idf/components/esp_partition /home/tung/esp/esp-idf/components/esp_phy /home/tung/esp/esp-idf/components/esp_pm /home/tung/esp/esp-idf/components/esp_psram /home/tung/esp/esp-idf/components/esp_ringbuf /home/tung/esp/esp-idf/components/esp_rom /home/tung/esp/esp-idf/components/esp_system /home/tung/esp/esp-idf/components/esp_timer /home/tung/esp/esp-idf/components/esp_wifi /home/tung/esp/esp-idf/components/espcoredump /home/tung/esp/esp-idf/components/esptool_py /home/tung/esp/esp-idf/components/fatfs /home/tung/esp/esp-idf/components/freertos /home/tung/esp/esp-idf/components/hal /home/tung/esp/esp-idf/components/heap /home/tung/esp/esp-idf/components/http_parser /home/tung/esp/esp-idf/components/idf_test /home/tung/esp/esp-idf/components/ieee802154 /home/tung/esp/esp-idf/components/json /home/tung/esp/esp-idf/components/log /home/tung/esp/esp-idf/components/lwip /home/tung/esp_sensor/main /home/tung/esp/esp-idf/components/mbedtls /home/tung/esp/esp-idf/components/mqtt /home/tung/esp/esp-idf/components/newlib /home/tung/esp/esp-idf/components/nvs_flash /home/tung/esp/esp-idf/components/nvs_sec_provider /home/tung/esp/esp-idf/components/openthread /home/tung/esp/esp-idf/components/partition_table /home/tung/esp/esp-idf/components/perfmon /home/tung/esp/esp-idf/components/protobuf-c /home/tung/esp/esp-idf/components/protocomm /home/tung/esp/esp-idf/components/pthread /home/tung/esp/esp-idf/components/sdmmc /home/tung/esp/esp-idf/components/soc /home/tung/esp/esp-idf/components/spi_flash /home/tung/esp/esp-idf/components/spiffs /home/tung/esp/esp-idf/components/tcp_transport /home/tung/esp/esp-idf/components/ulp /home/tung/esp/esp-idf/components/unity /home/tung/esp/esp-idf/components/usb /home/tung/esp/esp-idf/components/vfs /home/tung/esp/esp-idf/components/wear_levelling /home/tung/esp/esp-idf/components/wifi_provisioning /home/tung/esp/esp-idf/components/wpa_supplicant /home/tung/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tung/esp_sensor/build

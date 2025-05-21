@@ -1,0 +1,95 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15532
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (29) boot: ESP-IDF v5.2 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time May 21 2025 08:14:03[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (33) boot: chip revision: v3.0[0m
+[0;32mI (37) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (42) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (46) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (51) boot: Enabling RNG early entropy source...[0m
+[0;32mI (56) boot: Partition Table:[0m
+[0;32mI (60) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (67) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (75) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (82) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (90) boot: End of partition table[0m
+[0;32mI (94) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09aa4h ( 39588) map[0m
+[0;32mI (116) esp_image: segment 1: paddr=00019acc vaddr=3ffb0000 size=02254h (  8788) load[0m
+[0;32mI (119) esp_image: segment 2: paddr=0001bd28 vaddr=40080000 size=042f0h ( 17136) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13dech ( 81388) map[0m
+[0;32mI (158) esp_image: segment 4: paddr=00033e14 vaddr=400842f0 size=0842ch ( 33836) load[0m
+[0;32mI (178) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (178) boot: Disabling RNG early entropy source...[0m
+[0;32mI (189) cpu_start: Multicore app[0m
+[0;32mI (198) cpu_start: Pro cpu start user code[0m
+[0;32mI (198) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (198) cpu_start: Application information:[0m
+[0;32mI (201) cpu_start: Project name:     esp_sensor[0m
+[0;32mI (206) cpu_start: App version:      1[0m
+[0;32mI (211) cpu_start: Compile time:     May 21 2025 08:13:52[0m
+[0;32mI (217) cpu_start: ELF file SHA256:  264faa3ac...[0m
+[0;32mI (222) cpu_start: ESP-IDF:          v5.2[0m
+[0;32mI (227) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (232) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (237) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (242) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (249) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (255) heap_init: At 3FFB2B18 len 0002D4E8 (181 KiB): DRAM[0m
+[0;32mI (261) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (267) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (274) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (281) spi_flash: detected chip: generic[0m
+[0;32mI (284) spi_flash: flash io: dio[0m
+[0;32mI (289) main_task: Started on CPU0[0m
+[0;32mI (299) main_task: Calling app_main()[0m
+[0;32mI (299) DHT11_APP: Khởi động đọc dữ liệu từ DHT11[0m
+[0;32mI (319) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 50.0%[0m
+[0;32mI (2339) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 50.0%[0m
+[0;32mI (4359) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 49.0%[0m
+[0;32mI (6379) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 49.0%[0m
+[0;32mI (8399) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 49.0%[0m
+[0;32mI (10419) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 49.0%[0m
+[0;32mI (12439) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 49.0%[0m
+[0;32mI (14459) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 49.0%[0m
+[0;32mI (16479) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 49.0%[0m
+[0;32mI (18499) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 49.0%[0m
+[0;32mI (20519) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 49.0%[0m
+[0;32mI (22539) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 49.0%[0m
+[0;32mI (24559) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 49.0%[0m
+[0;32mI (26579) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 49.0%[0m
+[0;32mI (28599) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 49.0%[0m
+[0;32mI (30619) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 49.0%[0m
+[0;32mI (32639) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 48.0%[0m
+[0;32mI (34659) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 48.0%[0m
+[0;32mI (36679) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 48.0%[0m
+[0;32mI (38699) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 48.0%[0m
+[0;32mI (40719) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 48.0%[0m
+[0;32mI (42739) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 48.0%[0m
+[0;32mI (44759) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 48.0%[0m
+[0;32mI (46779) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 48.0%[0m
+[0;32mI (48799) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 48.0%[0m
+[0;32mI (50819) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 48.0%[0m
+[0;32mI (52839) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 48.0%[0m
+[0;32mI (54859) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 48.0%[0m
+[0;32mI (56879) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 48.0%[0m
+[0;32mI (58899) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 48.0%[0m
+[0;32mI (60919) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 48.0%[0m
+[0;32mI (62939) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 48.0%[0m
+[0;32mI (64959) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 48.0%[0m
+[0;32mI (66979) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 48.0%[0m
+[0;32mI (68999) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 48.0%[0m
+[0;32mI (71019) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 48.0%[0m
+[0;32mI (73039) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 48.0%[0m
+[0;32mI (75059) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 48.0%[0m
+[0;32mI (77079) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 48.0%[0m
+[0;32mI (79099) DHT11_APP: Nhiệt độ: 28.0°C, Độ ẩm: 48.0%[0m
